@@ -4,8 +4,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ConverterView.h"
 
-@protocol Converter <NSObject>
-
-- (double)convert:(double)fromInput;
+@interface AudToUsdConverterView : ConverterView
+@property(weak, nonatomic) IBOutlet UITextField *inputField;
 @end

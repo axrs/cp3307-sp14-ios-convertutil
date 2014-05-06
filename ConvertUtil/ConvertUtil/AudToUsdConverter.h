@@ -4,8 +4,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Converter.h"
 
-@protocol Converter <NSObject>
 
-- (double)convert:(double)fromInput;
+@interface AudToUsdConverter : NSObject <Converter>
 @end

@@ -3,16 +3,15 @@
 // Copyright (c) 2014 CADCoder. All rights reserved.
 //
 
-#import "ImperialConverter.h"
+#import "AudToUsdConverter.h"
 
 
-@implementation ImperialConverter {
+@implementation AudToUsdConverter {
 
 }
 
 - (double)convert:(double)fromInput {
-    return fromInput * 25.4;
+    return fromInput * 0.93;
 }
-
 
 @end
