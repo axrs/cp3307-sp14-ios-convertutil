@@ -9,6 +9,7 @@
 @implementation AudToUsdConverterView {
     id <Converter> _converter;
 }
+@synthesize inputField;
 
 - (id <Converter>)converter {
     if (_converter == nil) {
@@ -18,8 +19,11 @@
 }
 
 - (IBAction)convert:(id)sender {
-    double input =
-    [super convert:sender];
+    double input = [inputField.text doubleValue];
+
+    double result = [[self converter] convert:input];
+    NSString *resultString = [[NSString alloc] initWithFormat:@"%.2f", result];
+    [[self displayLabel] setText:resultString];
 }
 
 

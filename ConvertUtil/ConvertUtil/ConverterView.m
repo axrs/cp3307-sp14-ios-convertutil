@@ -10,6 +10,7 @@
 
 @implementation ConverterView
 
+@synthesize displayLabel;
 
 - (id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
