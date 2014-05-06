@@ -4,8 +4,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ConverterView.h"
+#import "ConverterViewController.h"
 
-@interface AudToUsdConverterView : ConverterView
+@interface AudToUsdConverterViewController : ConverterViewController <UITextFieldDelegate>
 @property(weak, nonatomic) IBOutlet UITextField *inputField;
 @end

@@ -7,6 +7,7 @@
 
 
 @implementation ImperialConverter {
+    id <Converter> _converter;
 
 }
 

@@ -20,8 +20,9 @@
 		C09236FE1918E85400925C19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C09236FC1918E85400925C19 /* InfoPlist.strings */; };
 		C09237001918E85400925C19 /* ConvertUtilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C09236FF1918E85400925C19 /* ConvertUtilTests.m */; };
 		C092370A1918E8B000925C19 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C09237091918E8B000925C19 /* Storyboard.storyboard */; };
-		C092370D1918EC5B00925C19 /* ConverterView.m in Sources */ = {isa = PBXBuildFile; fileRef = C092370C1918EC5B00925C19 /* ConverterView.m */; };
-		D24FF6B0A81E2FCF2032CE7D /* AudToUsdConverterView.m in Sources */ = {isa = PBXBuildFile; fileRef = D24FFBBF500DAC7EB8465B3B /* AudToUsdConverterView.m */; };
+		C092370D1918EC5B00925C19 /* ConverterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C092370C1918EC5B00925C19 /* ConverterViewController.m */; };
+		D24FF6B0A81E2FCF2032CE7D /* AudToUsdConverterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D24FFBBF500DAC7EB8465B3B /* AudToUsdConverterViewController.m */; };
+		D24FF8336AF1B93D258E7F40 /* ImperialToMetricConverterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D24FF1E5FF38B5397A6A49FB /* ImperialToMetricConverterViewController.m */; };
 		D24FFA709E7FCC28C7104329 /* AudToUsdConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = D24FFE1AE4D6788003F4852E /* AudToUsdConverter.m */; };
 		D24FFFD84EC4E72255956E3F /* ImperialConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = D24FF28AD0CD299D76FC83EE /* ImperialConverter.m */; };
 /* End PBXBuildFile section */
@@ -54,13 +55,15 @@
 		C09236FD1918E85400925C19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C09236FF1918E85400925C19 /* ConvertUtilTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConvertUtilTests.m; sourceTree = "<group>"; };
 		C09237091918E8B000925C19 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = ../Storyboard.storyboard; sourceTree = "<group>"; };
-		C092370B1918EC5B00925C19 /* ConverterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConverterView.h; sourceTree = "<group>"; };
-		C092370C1918EC5B00925C19 /* ConverterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConverterView.m; sourceTree = "<group>"; };
-		D24FF192ADE11C030D389725 /* AudToUsdConverterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudToUsdConverterView.h; sourceTree = "<group>"; };
+		C092370B1918EC5B00925C19 /* ConverterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConverterViewController.h; sourceTree = "<group>"; };
+		C092370C1918EC5B00925C19 /* ConverterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConverterViewController.m; sourceTree = "<group>"; };
+		D24FF192ADE11C030D389725 /* AudToUsdConverterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudToUsdConverterViewController.h; sourceTree = "<group>"; };
+		D24FF1E5FF38B5397A6A49FB /* ImperialToMetricConverterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImperialToMetricConverterViewController.m; sourceTree = "<group>"; };
 		D24FF28AD0CD299D76FC83EE /* ImperialConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImperialConverter.m; sourceTree = "<group>"; };
+		D24FF4154C3E1A311A686ABF /* ImperialToMetricConverterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImperialToMetricConverterViewController.h; sourceTree = "<group>"; };
 		D24FF6AB369780819F3C9B74 /* ImperialConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImperialConverter.h; sourceTree = "<group>"; };
 		D24FFAFA4C2B3B6BD8F03E18 /* Converter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Converter.h; sourceTree = "<group>"; };
-		D24FFBBF500DAC7EB8465B3B /* AudToUsdConverterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudToUsdConverterView.m; sourceTree = "<group>"; };
+		D24FFBBF500DAC7EB8465B3B /* AudToUsdConverterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudToUsdConverterViewController.m; sourceTree = "<group>"; };
 		D24FFDD0C4531F6A24E645B1 /* AudToUsdConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudToUsdConverter.h; sourceTree = "<group>"; };
 		D24FFE1AE4D6788003F4852E /* AudToUsdConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudToUsdConverter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,10 +135,12 @@
 				D24FF6AB369780819F3C9B74 /* ImperialConverter.h */,
 				D24FFE1AE4D6788003F4852E /* AudToUsdConverter.m */,
 				D24FFDD0C4531F6A24E645B1 /* AudToUsdConverter.h */,
-				C092370B1918EC5B00925C19 /* ConverterView.h */,
-				C092370C1918EC5B00925C19 /* ConverterView.m */,
-				D24FFBBF500DAC7EB8465B3B /* AudToUsdConverterView.m */,
-				D24FF192ADE11C030D389725 /* AudToUsdConverterView.h */,
+				C092370B1918EC5B00925C19 /* ConverterViewController.h */,
+				C092370C1918EC5B00925C19 /* ConverterViewController.m */,
+				D24FFBBF500DAC7EB8465B3B /* AudToUsdConverterViewController.m */,
+				D24FF192ADE11C030D389725 /* AudToUsdConverterViewController.h */,
+				D24FF1E5FF38B5397A6A49FB /* ImperialToMetricConverterViewController.m */,
+				D24FF4154C3E1A311A686ABF /* ImperialToMetricConverterViewController.h */,
 			);
 			path = ConvertUtil;
 			sourceTree = "<group>";
@@ -269,8 +274,9 @@
 				C09236E71918E85400925C19 /* main.m in Sources */,
 				D24FFFD84EC4E72255956E3F /* ImperialConverter.m in Sources */,
 				D24FFA709E7FCC28C7104329 /* AudToUsdConverter.m in Sources */,
-				C092370D1918EC5B00925C19 /* ConverterView.m in Sources */,
-				D24FF6B0A81E2FCF2032CE7D /* AudToUsdConverterView.m in Sources */,
+				C092370D1918EC5B00925C19 /* ConverterViewController.m in Sources */,
+				D24FF6B0A81E2FCF2032CE7D /* AudToUsdConverterViewController.m in Sources */,
+				D24FF8336AF1B93D258E7F40 /* ImperialToMetricConverterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

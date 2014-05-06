@@ -3,13 +3,14 @@
 // Copyright (c) 2014 CADCoder. All rights reserved.
 //
 
-#import "AudToUsdConverterView.h"
+#import "AudToUsdConverterViewController.h"
 #import "AudToUsdConverter.h"
 
-@implementation AudToUsdConverterView {
+@implementation AudToUsdConverterViewController {
     id <Converter> _converter;
 }
 @synthesize inputField;
+
 
 - (id <Converter>)converter {
     if (_converter == nil) {
@@ -22,9 +23,8 @@
     double input = [inputField.text doubleValue];
 
     double result = [[self converter] convert:input];
-    NSString *resultString = [[NSString alloc] initWithFormat:@"%.2f", result];
+    NSString *resultString = [[NSString alloc] initWithFormat:@"$%0.2f", result];
     [[self displayLabel] setText:resultString];
 }
-
 
 @end
